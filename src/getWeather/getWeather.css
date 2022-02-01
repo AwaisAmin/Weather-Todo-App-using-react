@@ -1,0 +1,74 @@
+.bgImg{
+  background: url("https://wallup.net/wp-content/uploads/2018/10/05/838263-storm-weather-rain-sky-clouds-nature-robot-futuristic-748x496.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wetherBg{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading{
+    color:white;
+    font-weight: 700;
+}
+.searchInput{
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    margin-right: 25px;
+    font-size: 20px;
+    color: #ccc;
+    background-color: #000000;
+    border: 2px solid #c89666;
+    border-radius: 10px;
+}
+.searchbutton{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #f1af71;
+    cursor: pointer;
+}
+input:focus{
+    outline: none;
+}
+.addbutton{
+    width: 50%;
+    padding: 10px 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #f1af71;
+    cursor: pointer;
+}
+.wetherResultBox{
+    /* margin: auto; */
+    background-color: #12343b;
+    box-shadow: 3px 6px 40px #000;
+    border-radius: 10px;
+    margin-left: 110px;
+    width: 432px;
+    height: auto;
+}
+.weathorIcon{
+    margin-top: 2rem;
+    width: 80px;
+    height: 80px;
+}
+.weathorCity{
+    font-size: 30px;
+    color: #fff;
+}
+  .weathorTemp{
+    font-size:45px;
+    color: #fff;
+    font-weight: 700;
+}
+/* .added{
+    padding: 10px 55px;
+}  */
